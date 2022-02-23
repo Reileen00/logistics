@@ -1,0 +1,197 @@
+{
+  "contractName": "logistics",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/logistics.sol\":\"logistics\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/logistics.sol\":{\"keccak256\":\"0x687d37ee47efa68249db46b79d0e4185b57b02501ccb0581ebc70142f5cf1b99\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fc3d03f54d7fb0f0a9ab0832c017d3eb5547cd10291abaf7c7bf2859885b1a7b\",\"dweb:/ipfs/QmddFjz2LVSJKdoBw7vwp3gTjGmUnrD4xLfKzK1m5aa1D7\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220c040911575a25b590696e0603b4cbc4f30545aeaf2f2644c1148a89f677fddd664736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220c040911575a25b590696e0603b4cbc4f30545aeaf2f2644c1148a89f677fddd664736f6c634300080b0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:51:1:-:0;;;89:26;;;;;;;;;;66:51;;;;;;",
+  "deployedSourceMap": "66:51:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract logistics {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:\\dDRIVE\\blockchain\\logistics\\contracts\\logistics.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/logistics.sol",
+    "exportedSymbols": {
+      "logistics": [
+        39
+      ]
+    },
+    "id": 40,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "logistics",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "logistics",
+        "nameLocation": "75:9:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "110:5:1",
+              "statements": []
+            },
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "100:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:0:1"
+            },
+            "scope": 39,
+            "src": "89:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "66:51:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:86:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/logistics.sol",
+    "exportedSymbols": {
+      "logistics": [
+        39
+      ]
+    },
+    "id": 40,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "logistics",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "logistics",
+        "nameLocation": "75:9:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "110:5:1",
+              "statements": []
+            },
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "100:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "110:0:1"
+            },
+            "scope": 39,
+            "src": "89:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "66:51:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:86:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.5",
+  "updatedAt": "2022-02-23T15:42:38.170Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
