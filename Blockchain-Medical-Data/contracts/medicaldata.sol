@@ -40,7 +40,7 @@ contract medicaldata {
         return uniqueId;
     }
 
-    function  useInsurance(address _uniqueId, uint _amountUsed) public returns (string){
+    function  useInsurance(address _uniqueId, uint _amountUsed) public returns(string){
         require(doctormapping[msg.sender]);
         if (citizenmapping[_uniqueId].amountInsured< _amountUsed){
             assert();
